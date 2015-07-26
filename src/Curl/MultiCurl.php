@@ -2,7 +2,7 @@
 
 namespace Curl;
 
-class MultiCurl
+class MultiCurl implements CurlInterface
 {
     public $base_url = null;
     public $multi_curl;
@@ -43,7 +43,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addDelete($url, $query_parameters = array(), $data = array())
+    public function delete($url, $query_parameters = array(), $data = array())
     {
         if (is_array($url)) {
             $data = $query_parameters;
@@ -67,7 +67,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addDownload($url, $mixed_filename)
+    public function download($url, $mixed_filename)
     {
         $curl = new Curl();
         $curl->setURL($url);
@@ -98,7 +98,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addGet($url, $data = array())
+    public function get($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;
@@ -121,7 +121,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addHead($url, $data = array())
+    public function head($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;
@@ -144,7 +144,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addOptions($url, $data = array())
+    public function options($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;
@@ -167,7 +167,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addPatch($url, $data = array())
+    public function patch($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;
@@ -191,7 +191,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addPost($url, $data = array())
+    public function post($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;
@@ -221,7 +221,7 @@ class MultiCurl
      *
      * @return object
      */
-    public function addPut($url, $data = array())
+    public function put($url, $data = array())
     {
         if (is_array($url)) {
             $data = $url;

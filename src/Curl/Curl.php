@@ -2,7 +2,7 @@
 
 namespace Curl;
 
-class Curl
+class Curl implements CurlInterface
 {
     const VERSION = '3.6.6';
     const DEFAULT_TIMEOUT = 30;
