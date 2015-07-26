@@ -1,7 +1,7 @@
 {
-    "name": "php-curl-class/php-curl-class",
+    "name": "marius321967/php-curl-class",
     "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
-    "homepage": "https://github.com/php-curl-class/php-curl-class",
+    "homepage": "https://github.com/marius321967/php-curl-class",
     "license": "Unlicense",
     "keywords": [
         "php", "curl", "class", "api", "client", "framework", "http client",
@@ -9,10 +9,11 @@
     ],
     "authors": [
         {
-            "name": "Zach Borboa"
+            "name": "Zach Borboa",
+            "name": "marius321967",
         }
     ],
-    "version": "3.6.6",
+    "version": "1.0",
     "require": {
         "php": ">=5.3",
         "ext-curl": "*"
@@ -21,6 +22,8 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {
+			"marius321967\\Curl\\": "src/Curl/"
+		}
     }
 }

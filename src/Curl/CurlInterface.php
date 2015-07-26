@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Marius
- * Date: 7/26/15
- * Time: 4:08 PM
- */
 
-namespace Curl;
+namespace marius321967;
 
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Curl;
+namespace marius321967;
 
 class MultiCurl implements CurlInterface
 {
