@@ -12,9 +12,3 @@ matrix:
   allow_failures:
     - php: hhvm
     - php: nightly
-
-before_script:
-  - bash tests/before_script.sh
-
-script:
-  - bash tests/script.sh

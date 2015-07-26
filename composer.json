@@ -9,17 +9,13 @@
     ],
     "authors": [
         {
-            "name": "Zach Borboa",
-            "name": "marius321967"
+            "name": "Zach Borboa"
         }
     ],
-    "version": "4.0",
+    "version": "4.0.1",
     "require": {
         "php": ">=5.3",
         "ext-curl": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {

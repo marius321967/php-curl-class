@@ -1,6 +1,6 @@
 <?php
 
-namespace marius321967;
+namespace marius321967\Curl;
 
 
 /**

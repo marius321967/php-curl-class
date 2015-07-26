@@ -1,10 +1,10 @@
 <?php
 
-namespace marius321967;
+namespace marius321967\Curl;
 
 class Curl implements CurlInterface
 {
-    const VERSION = '3.6.6';
+    const VERSION = '4.0.1';
     const DEFAULT_TIMEOUT = 30;
 
     public $curl;
