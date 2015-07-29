@@ -2,7 +2,7 @@
 
 ### Changes
 
-Both regular and async requests now take a different approach - response values are retrieved by using callbacks.
+`MultiCurl`'s `addGet`, `addPost`, etc. calls changed to `get`, `post` and so on.
 
 #### Regular Curl
 ```php
