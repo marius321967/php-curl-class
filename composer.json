@@ -12,7 +12,6 @@
             "name": "Zach Borboa"
         }
     ],
-    "version": "4.0.1",
     "require": {
         "php": ">=5.3",
         "ext-curl": "*"
