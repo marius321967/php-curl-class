@@ -47,4 +47,4 @@ echo $response;
 
 ### Notes
 
-For other freatures, read the [Original Package](https://github.com/php-curl-class/php-curl-class) documentation.
+For other features, read the [Original Package](https://github.com/php-curl-class/php-curl-class) documentation.
